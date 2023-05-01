@@ -8,7 +8,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 5rem 1fr 5rem;
-  border: solid 2px red;
+  // border: solid 2px red;
   grid-template-areas:
     "header"
     "main"
@@ -19,14 +19,13 @@
   }
 
   main {
-    border: solid 1px blue;
+    // border: solid 1px blue;
     grid-area: main;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    padding: 0 5rem;
-
+    padding: 3rem 3rem 0 3rem;
     .account {
       border: solid 1px black;
       width: 55%;
