@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from "./styles.module.scss";
+import text from "../../styles/text.module.scss";
 import { BiCaretDown, BiShoppingBag } from "react-icons/bi";
 
 const Header = () => {
@@ -12,7 +13,9 @@ const Header = () => {
         </div>
         {/* Options nav */}
         <div className={styles.options}>
-          <a href="#">Home</a>
+          <a href="#" className={text.navOption}>
+            Home
+          </a>
           <a href="#">Shop</a>
           <a href="#">Contact</a>
           <a href="#">Help</a>
