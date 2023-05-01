@@ -1,11 +1,22 @@
-.navSizeOption {
-  font-size: 1rem;
+@import "./colors.module.scss";
+
+.navOption,
+.navIcon,
+.formButton {
+  font-size: 0.9rem;
 }
 
-.navSizeIcon {
-  font-size: 1rem;
+.linkButton {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: inherit;
 }
 
 .descriptionSize {
-  font-size: 0.7rem;
+  font-size: 1rem;
+}
+
+.labelSize {
+  font-size: 0.8rem;
+  color: $text-dark-gray;
 }

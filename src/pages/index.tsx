@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import styles from "../styles/styles.module.scss";
 import Footer from "@/components/Footer";
+import Account from "@/components/Main/SectionAccount";
 const ShopCart = () => {
   return (
     <>
@@ -9,10 +10,14 @@ const ShopCart = () => {
           <Header />
         </header>
         <main>
-          <section className={styles.account}>Vitor</section>
+          <section className={styles.account}>
+            <Account />
+          </section>
           <section className={styles.summary}>Misael</section>
         </main>
-        <footer><Footer /></footer>
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </>
   );
