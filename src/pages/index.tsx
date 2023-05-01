@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import styles from "../styles/styles.module.scss";
+import Footer from "@/components/Footer";
 const ShopCart = () => {
   return (
     <>
@@ -11,7 +12,7 @@ const ShopCart = () => {
           <section className={styles.account}>Vitor</section>
           <section className={styles.summary}>Misael</section>
         </main>
-        <footer></footer>
+        <footer><Footer /></footer>
       </div>
     </>
   );
