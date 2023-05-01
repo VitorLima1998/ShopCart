@@ -1,14 +1,18 @@
+@import "../../styles/colors.module.scss";
+
 .header {
   display: flex;
   height: 100%;
+  border-bottom: solid 2px $border-bottom;
 
   a {
     text-decoration: none;
     color: inherit;
+    color: $text-gray;
   }
 
   .image {
-    padding-left: 4rem;
+    padding-left: 3rem;
     display: flex;
     width: 20%;
 
@@ -29,8 +33,14 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-right: 5rem;
+    padding-right: 3rem;
     gap: 1rem;
+
+    .profileBtn {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
 
     .iconProfile {
       height: 4rem;

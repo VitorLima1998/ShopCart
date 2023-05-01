@@ -13,23 +13,33 @@ const Header = () => {
         </div>
         {/* Options nav */}
         <div className={styles.options}>
-          <a href="#" className={text.navOption}>
+          <a href="#" className={text.navSizeOption}>
             Home
           </a>
-          <a href="#">Shop</a>
-          <a href="#">Contact</a>
-          <a href="#">Help</a>
+          <a href="#" className={text.navSizeOption}>
+            Shop
+          </a>
+          <a href="#" className={text.navSizeOption}>
+            Contact
+          </a>
+          <a href="#" className={text.navSizeOption}>
+            Help
+          </a>
         </div>
         {/* Profile Header */}
         <div className={styles.profile}>
-          <div>
-            <a href="#">Account</a>
-            <BiCaretDown />
+          <div className={styles.profileBtn}>
+            <a href="#" className={text.navSizeOption}>
+              Account
+            </a>
+            <BiCaretDown className={text.navSizeIcon} />
           </div>
 
-          <div>
-            <BiShoppingBag />
-            <a href="#">3 itens</a>
+          <div className={styles.profileBtn}>
+            <BiShoppingBag className={text.navSizeIcon} />
+            <a href="#" className={text.navSizeOption}>
+              3 items
+            </a>
           </div>
 
           <div>
