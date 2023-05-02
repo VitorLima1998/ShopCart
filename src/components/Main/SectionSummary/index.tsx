@@ -27,10 +27,22 @@ const Summary = () =>{
                 <Button variant="outline-primary" className={text.formButton}>Apply</Button>
                 </div>
                 <div className={stylesSummary.tabela}>
-                    <div>Sub total</div>
-                    <div>Tax</div>
-                    <div>Shipping</div>
-                    <div>Total</div>
+                    <div>
+                       <span>Sub total</span>
+                       <span>$316.55</span> 
+                    </div>
+                    <div>
+                         <span>Tax</span>
+                         <span>$3.45</span>
+                    </div>
+                    <div>
+                        <span>Shipping</span>
+                        <span>Free</span>
+                    </div>
+                    <div>
+                        <span>Total</span>
+                        <span>$320.45</span>
+                    </div>
                 </div>
             </div>
         </>
