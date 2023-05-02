@@ -7,7 +7,7 @@ return(<>
 
     <div className={styles.container}>
     
-    <p>Desenvolvido por Misael a Vitor < BiCopyright /></p>
+    <p>Developed by Misael e Vitor - 2023 < BiCopyright /></p>
     
     </div>
     

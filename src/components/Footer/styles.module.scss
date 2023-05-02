@@ -1,5 +1,12 @@
+@import "../../styles/colors.module.scss";
+
 .container{
+
+   padding: 2rem;
+   border-top: solid 2px $line-info;
+
      p{
-        color: green;
+         font-size: 1rem;
+         color: $text-dark-gray;
      }
 }

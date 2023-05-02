@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import styles from "../styles/styles.module.scss";
 import Footer from "@/components/Footer";
 import Account from "@/components/Main/SectionAccount";
+import Summary from "@/components/Main/SectionSummary";
 const ShopCart = () => {
   return (
     <>
@@ -13,7 +14,9 @@ const ShopCart = () => {
           <section className={styles.account}>
             <Account />
           </section>
-          <section className={styles.summary}>Misael</section>
+          <section className={styles.summary}>
+            <Summary/>
+          </section>
         </main>
         <footer>
           <Footer />
