@@ -15,7 +15,7 @@ const ShopCart = () => {
             <Account />
           </section>
           <section className={styles.summary}>
-            <Summary/>
+            <Summary />
           </section>
         </main>
         <footer>
