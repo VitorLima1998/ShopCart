@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "../../styles/colors.module.scss";
 
 .header {
@@ -54,3 +55,55 @@
     width: 10rem;
   }
 }
+=======
+@import "../../styles/colors.module.scss";
+
+.header {
+  display: flex;
+  height: 100%;
+  border-bottom: solid 2px $line-info;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    color: $text-dark-gray;
+  }
+
+  .image {
+    padding-left: 3rem;
+    display: flex;
+    width: 20%;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .options {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .profile {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 3rem;
+    gap: 1rem;
+
+    .profileBtn {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .iconProfile {
+      height: 4rem;
+      border-radius: 50%;
+    }
+  }
+}
+>>>>>>> origin/Misael
