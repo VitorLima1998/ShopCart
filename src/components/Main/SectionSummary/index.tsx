@@ -19,13 +19,19 @@ const Summary = () =>{
                     </div>
                     <h5>$320.45</h5>
                 </div>
-                <div>
-                <Form>
-                    <Form.Label className={styles.labelSize}>Gift Card / Discount code</Form.Label>
-                    <Form.Control type="text" placeholder="" />
-                </Form>
-                <Button variant="outline-primary" className={text.formButton}>Apply</Button>
+
+                <div className={stylesSummary.form}>
+                    <Form>
+                        <Form.Label className={styles.labelSize}>Gift Card / Discount code</Form.Label>
+                        <Form.Control className={stylesSummary.input} type="text" placeholder="" />
+                    </Form>
+                    <div>
+                        <Button variant="outline-primary" className={text.formButton}>Apply</Button>
+                    </div>
                 </div>
+
+                
+                
                 <div className={stylesSummary.tabela}>
                     <div>
                        <span>Sub total</span>
