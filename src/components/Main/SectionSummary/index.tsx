@@ -15,17 +15,19 @@ const Summary = () =>{
                     <img className={stylesSummary.image} src="/fone.webp" alt="" />
                     <div>
                     <h5>Sony wireless headphones</h5>
-                    
+                    <Button variant="outline-dark" className={text.formButton}>+</Button>
+                    <span>1</span>
+                    <Button variant="outline-dark" className={text.formButton}>-</Button>
                     </div>
                     <h5>$320.45</h5>
                 </div>
 
                 <div className={stylesSummary.form}>
+                    <div>
                     <Form>
                         <Form.Label className={styles.labelSize}>Gift Card / Discount code</Form.Label>
                         <Form.Control className={stylesSummary.input} type="text" placeholder="" />
                     </Form>
-                    <div>
                         <Button variant="outline-primary" className={text.formButton}>Apply</Button>
                     </div>
                 </div>
