@@ -57,3 +57,8 @@
     border-top: solid 2px $line-info;
   }
 }
+@media (max-width: 820px) {
+  .content {
+    width: 100%;
+  }
+}

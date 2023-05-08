@@ -21,8 +21,6 @@
   main {
     grid-area: main;
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 3rem;
     padding: 3rem 5rem 0 5rem;
 
@@ -30,6 +28,7 @@
       width: 50%;
       height: 100%;
     }
+
     .summary {
       width: 40%;
       height: 100%;
@@ -38,5 +37,27 @@
 
   footer {
     grid-area: footer;
+  }
+}
+@media (max-width: 820px) {
+  .container {
+    display: grid;
+    grid-template-rows: 5rem 2fr 5rem;
+
+    header {
+      width: 100%;
+    }
+
+    main {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 0;
+
+      .account,
+      .summary {
+        width: 90%;
+      }
+    }
   }
 }
