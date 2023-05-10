@@ -29,11 +29,55 @@
 
     
 .form{
+
         display: flex;
+        flex-direction: column;
+
+        div{
+          width: 100%;
+        }
 
         .input {
                 padding: 1rem;
             }
+
+        .inputApply{
+          display: flex;
+          gap: .5rem;
+
+        }
         
+    }
+
+    .labelGift{
+      width: 100%;
+    }
+
+    .sony{
+      border: solid 1px red;
+      display: flex;
+      width: 100%;
+
+      .title{
+        border: solid 1px ;
+        width: 80%;
+
+        h5{
+
+          font-size: 1rem;
+        }
+      }
+
+      .minus {
+        display: flex;
+        width: 30%;
+
+        Button {
+          border: solid 1px;
+          //width: 30%;
+        }
+    }
+
+    
     }
 

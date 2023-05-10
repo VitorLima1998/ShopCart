@@ -12,24 +12,38 @@ const Summary = () =>{
             <div className={styles.content}>
                 <div className={stylesSummary.card}>
                     <h5>Order Summary</h5>
-                    <img className={stylesSummary.image} src="/fone.webp" alt="" />
-                    <div>
-                    <h5>Sony wireless headphones</h5>
-                    <Button variant="outline-dark" className={text.formButton}>+</Button>
-                    <span>1</span>
-                    <Button variant="outline-dark" className={text.formButton}>-</Button>
+                        <img className={stylesSummary.image} src="/fone.webp" alt="" />
+                    <div className={stylesSummary.sony}>
+                        <div className={stylesSummary.title}>
+                            <h5>Sony wireless headphones</h5>
+                        </div>
+                        <div className={stylesSummary.minus}>
+                            <div>
+                                <Button variant="outline-dark">+</Button>
+                            </div>
+                            <div>
+                                <Button variant="outline-dark" >1</Button>
+                            </div>
+                            <div>
+                                <Button variant="outline-dark">-</Button>
+                            </div>
+                        </div>
                     </div>
                     <h5>$320.45</h5>
                 </div>
 
                 <div className={stylesSummary.form}>
-                    <div>
-                    <Form>
-                        <Form.Label className={styles.labelSize}>Gift Card / Discount code</Form.Label>
-                        <Form.Control className={stylesSummary.input} type="text" placeholder="" />
-                    </Form>
-                        <Button variant="outline-primary" className={text.formButton}>Apply</Button>
-                    </div>
+                        <div className={stylesSummary.labelGift}>
+                            <Form>
+                                <Form.Label className={styles.labelSize}>Gift Card / Discount code</Form.Label>
+                            </Form>
+                        </div>
+                        <div className={stylesSummary.inputApply}>
+                            <Form>
+                                <Form.Control className={stylesSummary.input} type="text" placeholder="" />
+                            </Form>
+                            <Button variant="outline-primary" className={text.formButton}>Apply</Button>
+                        </div>
                 </div>
 
                 
