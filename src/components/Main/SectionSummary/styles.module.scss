@@ -1,3 +1,4 @@
+@import "../../../styles/colors.module.scss";
 .card {
   width: 100%;
 
@@ -6,9 +7,13 @@
     display: flex;
     width: 100%;
   }
+
+  h5 :nth-child(2){
+    font-weight: 600;
+  }
+
 }
 
-   
 .tabela{
 
     display: flex;
@@ -23,8 +28,56 @@
         padding: 1rem;
         font-size: 1rem;
 
-    }
-       
+      } 
+      
+      div:nth-child(01){
+
+        span:nth-child(1){
+          color: $text-dark-gray;
+        }
+
+        span:nth-child(2){
+          font-weight: 500;
+        }
+
+      }
+
+      div:nth-child(02){
+
+        span:nth-child(1){
+          color: $text-dark-gray;
+        }
+
+        span:nth-child(2){
+          font-weight: 500;
+        }
+
+      }
+      
+      div:nth-child(03){
+
+        span:nth-child(1){
+          color: $text-dark-gray
+        }
+
+        span:nth-child(2){
+          color: $button-free;
+        }
+
+      }
+
+      div:nth-child(04){
+
+        span:nth-child(1){
+          font-weight: 600;
+        }
+
+        span:nth-child(2){
+          font-weight: 500;
+        }
+
+      }
+      
     }
 
     
@@ -54,27 +107,38 @@
     }
 
     .sony{
-      border: solid 1px red;
       display: flex;
-      width: 100%;
+      width: 80%;
 
       .title{
-        border: solid 1px ;
-        width: 80%;
+        width: 100%;
 
         h5{
-
-          font-size: 1rem;
+          font-size: .8rem;
         }
       }
 
       .minus {
         display: flex;
         width: 30%;
+        gap: 1rem;
+        outline: none;
 
-        Button {
-          border: solid 1px;
-          //width: 30%;
+        button{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: .7rem;
+          font-size: 1rem;
+          border-radius: .2rem;
+          background: $line-info;
+          height: 10px;
+          border: 1px;
+        }
+
+        .number{
+          border: none !important;
+          background: none !important;
         }
     }
 

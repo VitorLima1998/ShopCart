@@ -19,13 +19,13 @@ const Summary = () =>{
                         </div>
                         <div className={stylesSummary.minus}>
                             <div>
-                                <Button variant="outline-dark">+</Button>
+                                <button>+</button>
                             </div>
                             <div>
-                                <Button variant="outline-dark" >1</Button>
+                                <button className={stylesSummary.number}>1</button>
                             </div>
                             <div>
-                                <Button variant="outline-dark">-</Button>
+                                <button>-</button>
                             </div>
                         </div>
                     </div>
