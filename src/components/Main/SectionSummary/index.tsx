@@ -30,8 +30,8 @@ const Summary = () =>{
                         </div>
                     </div>
                     <h5>$320.45</h5>
-                </div>
-
+                    </div>
+                
                 <div className={stylesSummary.form}>
                         <div className={stylesSummary.labelGift}>
                             <Form>
@@ -45,17 +45,14 @@ const Summary = () =>{
                             <Button variant="outline-primary" className={text.formButton}>Apply</Button>
                         </div>
                 </div>
-
-                
-                
                 <div className={stylesSummary.tabela}>
                     <div>
-                       <span>Sub total</span>
-                       <span>$316.55</span> 
+                        <span>Sub total</span>
+                        <span>$316.55</span> 
                     </div>
                     <div>
-                         <span>Tax</span>
-                         <span>$3.45</span>
+                        <span>Tax</span>
+                        <span>$3.45</span>
                     </div>
                     <div>
                         <span>Shipping</span>
